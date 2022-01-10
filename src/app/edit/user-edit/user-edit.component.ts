@@ -32,7 +32,8 @@ export class UserEditComponent implements OnInit {
       this.router.navigate(['/entrar'])
     }
 
-    this.idUser = this.route.snapshot.params['id']
+    this.idUser = this.route.snapshot.params['id'],
+    this.findByIdUser(this.idUser);
   }
 
   confirmSenha(event: any) {
@@ -57,6 +58,7 @@ export class UserEditComponent implements OnInit {
         environment.token = ''
         environment.nome = ''
         environment.foto = ''
+        environment.tipo = ''
         environment.id = 0
         this.router.navigate(['/entrar'])
       })
