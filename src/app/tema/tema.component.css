@@ -1,0 +1,16 @@
+.bg-fundo {
+        background-image: url('https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2019/01/O-Que-e-Um-Banco-de-Dados-WordPress-Tudo-o-Que-Voce-Precisa-Saber.png');
+        min-height: 695px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+      
+.bg-tema {
+    background-color: rgba(255, 255, 255, 0.842);
+        padding: 100px;
+    }
+
+.bg-cor-fundo{
+        background-color:  #f0f2f5;
+      }
